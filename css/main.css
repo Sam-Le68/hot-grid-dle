@@ -28,6 +28,7 @@ body {
 
 figure {
   position: relative;
+  margin: 0;
 }
 
 figcaption {
@@ -35,6 +36,12 @@ figcaption {
   bottom: .5rem;
   left: .5rem;
   max-width: 15em;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(0, 0, 0, .6);
   color: white;
+  padding: 1rem;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
 }
